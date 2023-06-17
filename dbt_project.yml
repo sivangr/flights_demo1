@@ -34,9 +34,9 @@ models:
   flights_demo:
     # Config indicated by + and applies to all files under models/example/
     dimensions:
-      +materialized: table
+      +materialized: incremental
       +schema: flights_demo_dwh
     facts:
-      +materialized: table
+      +materialized: incremental
       +schema: flights_demo_dwh
 
