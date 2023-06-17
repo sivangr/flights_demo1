@@ -1,0 +1,30 @@
+
+version: 2
+
+models:
+      - name: dim_date
+        columns:
+            - name: date_dim_id 
+            - name: date_key
+            - name:	epoch	day_name
+            - name:	day_of_week
+            - name:	day_of_month
+            - name:	day_of_quarter
+            - name:	day_of_year
+            - name:	week_of_month
+            - name:	week_of_year
+            - name:	month_actual
+            - name:	month_name
+            - name:	month_name_abbreviated
+            - name:	quarter_actual
+            - name:	quarter_name
+            - name:	year_actual
+            - name:	first_day_of_week
+            - name:	last_day_of_week
+            - name:	first_day_of_month
+            - name:	last_day_of_month
+            - name:	first_day_of_quarter
+            - name:	last_day_of_quarter
+            - name:	first_day_of_year	last_day_of_year
+            - name:	yyyymm
+            - name:	weekend_indr
